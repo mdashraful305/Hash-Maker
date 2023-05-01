@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Stopwatch</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+<div class="container">
+    <h1 class="text-center mt-5 mb-4">Hash Maker</h1>
+    <form>
+      <div class="form-group row justify-content-center">
+        <label for="input" class="col-sm-2 col-form-label">Enter text to hash:</label>
+        <div class="col-sm-6">
+          <input type="text" class="form-control" id="input">
+        </div>
+      </div>
+      <div class="form-group row justify-content-center">
+        <div class="col-sm-8">
+          <button id="md5" class="btn btn-primary mr-2">Generate MD5 Hash</button>
+          <button id="sha1" class="btn btn-primary mr-2">Generate SHA-1 Hash</button>
+          <button id="sha256" class="btn btn-primary mr-2">Generate SHA-256 Hash</button>
+          <button id="clear" class="btn btn-secondary">Clear</button>
+        </div>
+      </div>
+    </form>
+    <div id="output" class="text-center mt-4"></div>
+  </div>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
